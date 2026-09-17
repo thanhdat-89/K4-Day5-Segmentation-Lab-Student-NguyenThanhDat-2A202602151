@@ -2,9 +2,9 @@
 
 **Cách dùng:** Bản cần nộp đã có sẵn ở [`REPORT.md`](../REPORT.md) trong thư mục gốc của fork; mở file đó và điền vào chỗ `…`. File này giải thích từng mục và có ví dụ để tham khảo khi bạn bị kẹt. Giữ nguyên bốn mục và bảng để coach đọc bài nhanh; **không chép ví dụ thành câu trả lời của mình**.
 
-- Mã học viên theo lớp: …
-- Ngày / CVAT local: …
-- Công cụ đã dùng: Brush / Polygon / Intelligent Scissors / gợi ý tự động có sẵn / khác: …
+- Mã học viên theo lớp: 2A202602151
+- Ngày / CVAT local:17/9/2026
+- Công cụ đã dùng: Brush / Polygon / Intelligent Scissors
 
 Mã học viên là mã lớp cấp, không cần ghi họ tên trong bản nộp nếu kênh lớp đã nhận diện bạn. Ở dòng công cụ, giữ lại những công cụ bạn thật sự dùng; không có SAM cũng hoàn toàn bình thường.
 
@@ -12,18 +12,18 @@ Mã học viên là mã lớp cấp, không cần ghi họ tên trong bản nộ
 
 **Bạn cần điền gì?** “File ZIP đúng tên” là tên file bạn đã tải từ CVAT rồi đặt lại, ví dụ `easy_semantic.zip`. “Hoàn thành mấy ảnh” là số ảnh bạn đã vẽ và Save, không phải số ảnh có trong task. Chưa làm hoặc export lỗi thì ghi `chưa có`, đừng ghi tên một ZIP rỗng. Cột điểm là **điểm tối đa của task**, không phải điểm tự chấm.
 
-| Task | File ZIP đúng tên | Hoàn thành mấy ảnh | Điểm tối đa (coach chấm sau) |
-| --- | --- | ---: | ---: |
-| easy_semantic | … | … / 3 | 20 |
-| medium_instance | … | … / 3 | 32 |
-| hard_panoptic | … | … / 2 | 30 |
-| cp1_holes | … | … / 1 | 3 |
-| cp2_slice | … | … / 1 | 3 |
-| cp5_occlusion | … | … / 1 | 3 |
-| cp3_thin | … | … / 1 | 3 |
-| cp4_curb | … | … / 1 | 3 |
-| cp6_coverage | … | … / 1 | 3 |
-| **Tổng tối đa** | | | **100** |
+| Task                     | File ZIP đúng tên | Hoàn thành mấy ảnh | Điểm tối đa (coach chấm sau) |
+| ------------------------ | -------------------- | ---------------------: | --------------------------------: |
+| easy_semantic            | …                   |                 … / 3 |                                20 |
+| medium_instance          | …                   |                 … / 3 |                                32 |
+| hard_panoptic            | …                   |                 … / 2 |                                30 |
+| cp1_holes                | …                   |                 … / 1 |                                 3 |
+| cp2_slice                | …                   |                 … / 1 |                                 3 |
+| cp5_occlusion            | …                   |                 … / 1 |                                 3 |
+| cp3_thin                 | …                   |                 … / 1 |                                 3 |
+| cp4_curb                 | …                   |                 … / 1 |                                 3 |
+| cp6_coverage             | …                   |                 … / 1 |                                 3 |
+| **Tổng tối đa** |                      |                        |                     **100** |
 
 Không tự điền điểm nếu chưa có phản hồi từ người chấm. Nếu export lỗi, ghi task, trạng thái Save và thông báo đã gửi coach.
 
@@ -57,7 +57,7 @@ Ví dụ cách giải thích, không phải đáp án cho ảnh của bạn: “
 **“Ca” là một vùng cụ thể khiến bạn phải dừng lại và chọn cách hiểu**, không nhất thiết là ba lỗi. Với mỗi dòng, ghi vị trí, hai khả năng bạn đã cân nhắc, dấu hiệu nhìn thấy hoặc quy tắc đã dùng, rồi quyết định của bạn. Nếu quy tắc chưa đủ rõ, viết một câu hỏi mà coach có thể trả lời. Ví dụ: “mép bó vỉa trong `cp4_curb`: road hay sidewalk? Tôi chọn sidewalk vì phần nền nâng cao; xin xác nhận ranh tại chỗ màu giống mặt đường.” Ba dòng có thể đến từ ba task khác nhau.
 
 | Ảnh/vị trí | Hai cách hiểu có thể | Quy tắc/chứng cứ | Quyết định hoặc câu hỏi cho coach |
-| --- | --- | --- | --- |
-| 1 | … | … | … |
-| 2 | … | … | … |
-| 3 | … | … | … |
+| ------------- | ------------------------ | ------------------- | --------------------------------------- |
+| 1             | …                       | …                  | …                                      |
+| 2             | …                       | …                  | …                                      |
+| 3             | …                       | …                  | …                                      |
